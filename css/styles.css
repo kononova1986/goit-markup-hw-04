@@ -152,7 +152,7 @@ a {
     to bottom,
     rgba(46, 47, 66, 0.70), 
     rgba(46, 47, 66, 0.70)), 
-    url(/images/people-office.jpg);
+    url(./images/people-office.jpg);
 }
 .container-banner{
     display: inline-flex;
@@ -483,9 +483,9 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     background-color: #4D5AE5;
     border-radius: 50%;
     fill: #FFF;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
-.social-links-footer:hover .link{
+.social-links-footer:hover .link{ 
     background-color: #31D0AA;
 }
 
