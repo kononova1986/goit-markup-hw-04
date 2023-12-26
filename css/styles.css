@@ -319,7 +319,7 @@ a {
     height: 40px;
 }
 
-.social-links .link{
+.social-links-team {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,8 +330,8 @@ a {
     fill: #FFF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links .link:hover,
-.social-links .link:focus{
+.social-links-team:hover,
+.social-links-team:focus{
     background-color: #404bbf;
 
 }
@@ -448,6 +448,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 /*Подвал*/
 .down {
+    display: flex;
+    align-items: baseline;
     background: #2E2F42;
     padding: 100px 0;
 }
@@ -456,7 +458,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     align-items: baseline;
 }
 .footer-text{
-    margin-right: 120px
+    margin-right: 120px;
 }
 
 .down-link{
@@ -503,7 +505,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 17.5px;
+    margin-bottom: 16px;
 
 }
 .social-links-footer {
@@ -517,7 +519,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     height: 40px;
 }
 
-.social-links-footer .link {
+.social-link-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -528,8 +530,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     fill: #FFF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links-footer:hover .link,
-.social-links-footer:focus .link{ 
+.social-link-footer:hover, 
+.social-link-footer:focus { 
     background-color: #31D0AA;
 }
 
