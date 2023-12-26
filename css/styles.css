@@ -432,6 +432,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 .down {
     background: #2E2F42;
     padding: 100px 0;
+}
+.container-footer{
     display: flex; 
     align-items: baseline;
 }
@@ -471,10 +473,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     margin-bottom: 16px
 }
 
-.social{
-    ;
-
-}
 .social-text{
     color: #FFF;
     font-size: 16px;
